@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+}
+
+span,
+input {
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #323437;
+  color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
